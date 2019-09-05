@@ -28,8 +28,8 @@ public class FragmentAdapterV3  extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position){
-            case 0: return "Doctor Info";
-            case 1: return "Clinic Info";
+            case 0: return "Doc Info";
+            case 1: return "Cli Info";
             case 2: return "Review";
             default:return null;
         }
