@@ -16,8 +16,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:tabMode="fixed"
-        tools:layout_editor_absoluteY="2dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2dp" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager_vista"
