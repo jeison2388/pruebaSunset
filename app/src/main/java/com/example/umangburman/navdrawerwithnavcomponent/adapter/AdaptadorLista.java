@@ -64,21 +64,6 @@ public class AdaptadorLista extends RecyclerView.Adapter<AdaptadorLista.ListaVie
         public ListaViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            /*//extraemos el drawable en un bitmap
-            Drawable originalDrawable = itemView.getResources().getDrawable(R.drawable.header);
-            Bitmap originalBitmap = ((BitmapDrawable) originalDrawable).getBitmap();
-
-            //creamos el drawable redondeado
-            RoundedBitmapDrawable roundedDrawable =
-                    RoundedBitmapDrawableFactory.create(itemView.getResources(), originalBitmap);
-
-            //asignamos el CornerRadius
-            roundedDrawable.setCornerRadius(originalBitmap.getHeight());
-
-            imgFoto = (ImageView) itemView.findViewById(R.id.imageView);
-
-            imgFoto.setImageDrawable(roundedDrawable);*/
-
             imgFoto = (ImageView) itemView.findViewById(R.id.imageList);
            textTitulo = (TextView) itemView.findViewById(R.id.lbl_tituloItem);
            textNombre = (TextView) itemView.findViewById(R.id.lbl_nombreItem);

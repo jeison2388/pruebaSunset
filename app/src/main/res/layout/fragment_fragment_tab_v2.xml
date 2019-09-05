@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentTabV2">
+
+
+    <ImageView
+        android:id="@+id/imageVista2"
+        android:layout_width="wrap_content"
+        android:layout_height="241dp"
+        android:src="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_titlev2"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="@string/titlev2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageVista2" />
+
+    <TextView
+        android:id="@+id/lbl_descripcionv2"
+        android:layout_width="35dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/decriptionApo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_titlev2" />
+
+    <TextView
+        android:id="@+id/lbl_texttiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hourApo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_descripcionv2" />
+
+    <TextView
+        android:id="@+id/lbl_tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/timeBeforeApo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_texttiempo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
