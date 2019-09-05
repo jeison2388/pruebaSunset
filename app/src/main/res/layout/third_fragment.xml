@@ -6,16 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/img"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <include layout="@layout/header_vista3"
+        android:id="@+id/header_vista3"
+        tools:ignore="InvalidId" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_vista3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/header" />
+        app:layout_constraintTop_toBottomOf="@+id/header_vista3"
+        app:tabMode="fixed"
+        tools:ignore="MissingConstraints" />
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_vista3"
+        android:layout_width="409dp"
+        android:layout_height="681dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_vista3"
+        tools:ignore="MissingConstraints"></androidx.viewpager.widget.ViewPager>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -92,9 +92,6 @@ public class MainActivity extends AppCompatActivity implements
                 navController.navigate(R.id.thirdFragment);
                 break;
 
-            case R.id.practice:
-                navController.navigate(R.id.practiceFragment);
-                break;
         }
         return true;
     }

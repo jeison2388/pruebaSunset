@@ -56,10 +56,10 @@ public class FirstFragment extends Fragment {
 
     private void cargarDatos (){
         datosPrueba =  new ArrayList<>();
-        datosPrueba.add(new ListaPrueba(R.drawable.header,"Juan Solano","Ingeniero Electrico","cra 5 an 12", "4.5"));
-        datosPrueba.add(new ListaPrueba(R.drawable.header,"David Sotelo","Ingeniero Civil","cra 5 an 12", "5"));
-        datosPrueba.add(new ListaPrueba(R.drawable.header,"Yaison Samboni","Ingeniero Sistemas","cra 5 an 12", "3.8"));
-        datosPrueba.add(new ListaPrueba(R.drawable.header,"Patricia Queartaro","Ingeniero forestal","cra 5 an 12", "5"));
+        datosPrueba.add(new ListaPrueba(R.drawable.img1,"Juan Solano","Ingeniero Electrico","cra 5 an 12", "4.5"));
+        datosPrueba.add(new ListaPrueba(R.drawable.img3,"David Sotelo","Ingeniero Civil","cra 5 an 12", "5"));
+        datosPrueba.add(new ListaPrueba(R.drawable.imagen2,"Yaison Samboni","Ingeniero Sistemas","cra 5 an 12", "3.8"));
+        datosPrueba.add(new ListaPrueba(R.drawable.img5,"Patricia Queartaro","Ingeniero forestal","cra 5 an 12", "5"));
     }
 
     public void inicializarAdapter () {

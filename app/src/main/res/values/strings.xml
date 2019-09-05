@@ -10,4 +10,12 @@
     <string name="timeBeforeApo">Time left before appoinment</string>
     <string name="time">2 days 5 hours</string>
     <string name="descriptionbeforeApo">Book a video / physical appoinment</string>
+    <string name="buttonV2">Yes start Booking</string>
+    <string name="urlApo">No thanks ! take me to My appoinment</string>
+    <string name="titlev3">Internal Medicine</string>
+    <string name="ubicationv3">454. uper Manhattan NY</string>
+    <string name="locationV3">New York Central</string>
+    <string name="phoneV3">+ 57 3215 1245 1544</string>
+    <string name="desciptionlocationV3">454. uper Manhattan NY</string>
+    <string name="buttonV3">Book and Appoinment</string>
 </resources>
